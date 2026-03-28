@@ -22,7 +22,7 @@ padding: 20px;
 
 .section-container {
 display: flex;
-gap: 20px;
+flex-direction: column;
 }
   
 .section-box {
