@@ -50,6 +50,12 @@ margin-top: 30px;
   margin: 0 auto;
 }
 
+.about-flex {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
 .top-image {
   display: block;
   width: 100%;
