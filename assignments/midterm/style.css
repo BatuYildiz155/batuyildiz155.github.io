@@ -50,3 +50,10 @@ color: white;
 text-align: center;
 margin-top: 30px;
 }
+
+.top-image {
+display: block;
+margin: 30px auto;
+width: 200px;
+border-radius: 50%;
+}
