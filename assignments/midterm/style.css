@@ -35,13 +35,7 @@ background-color: white;
 border-radius: 6px; 
 }
   
-.section-box {
-border: 1px solid #ccc;
-padding: 20px;
-margin: 0;
-background-color: white; 
-border-radius: 6px; 
-}
+
 
 footer {
 padding: 20px;
@@ -66,4 +60,6 @@ margin-top: 30px;
   border-radius: 6px;
 }
 
-
+.section-box p {
+  margin-bottom: 12px;
+}
