@@ -49,10 +49,28 @@ footer {
 
 .home-layout {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.profile-image {
+  width: 320px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.intro-text {
+  flex: 1;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.intro-text h2 {
+  margin-top: 0;
 }
 
 .about-flex {
@@ -69,19 +87,9 @@ footer {
 
 .work-image {
   width: 300px;
-  height: 400;
+  height: 400px;
   object-fit: cover;
   object-position: 10% center;
-  border-radius: 6px;
-}
-
-.top-image {
-  display: block;
-  width: 100%;
-  max-width: 800px;
-  height: 300px;
-  object-fit: contain;
-  margin: 0 auto 20px auto;
   border-radius: 6px;
 }
 
