@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interests</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>My Interests</h1>
+  </header>
+
+  <main>
+
+    <h2>Interest Filter</h2>
+
+    <p>Select a category to filter my interests and projects.</p>
+
+    <!-- Dropdown Filter -->
+    <select onchange="filterItems(this.value)">
+
+      <option value="">All</option>
+
+      <option value="Technology">
+        Technology
+      </option>
+
+      <option value="Sports">
+        Sports
+      </option>
+
+      <option value="Creative">
+        Creative
+      </option>
+
+    </select>
+
+    <!-- Result Counter -->
+    <p id="result-count"></p>
+
+    <!-- Cards Appear Here -->
+    <div id="items-container"></div>
+
+  </main>
+
+  <!-- Connect JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
